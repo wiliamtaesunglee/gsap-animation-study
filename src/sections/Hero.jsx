@@ -29,7 +29,7 @@ export const Hero = () => {
       .to('.fade-out', { opacity: 0, ease: 'power1.inOut' })
       .to('.scale-out', { scale: 1, ease: 'power1.inOut' })
       .to('.mask-wrapper', { maskSize, ease: 'power1.inOut' }, '<')
-      // .to('.mask-wrapper', { opacity: 0 })
+      .to('.mask-wrapper', { opacity: 0 })
       .to('.overlay-logo', {
         opacity: 1,
         onComplete: () => {
